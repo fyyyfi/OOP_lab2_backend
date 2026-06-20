@@ -1,4 +1,3 @@
-"""Specialist schemas."""
 from pydantic import BaseModel, Field
 
 

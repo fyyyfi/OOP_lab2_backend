@@ -1,4 +1,3 @@
-"""Application configuration loaded from environment variables."""
 import os
 from functools import lru_cache
 
@@ -25,5 +24,4 @@ class Settings:
 
 @lru_cache
 def get_settings() -> Settings:
-    """Return a cached Settings instance."""
     return Settings()

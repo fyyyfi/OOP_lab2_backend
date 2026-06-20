@@ -1,4 +1,3 @@
-"""Service request (Заявка) submitted by a tenant."""
 from sqlalchemy import Column, DateTime, Integer, String, Text
 
 from app.core.database import Base

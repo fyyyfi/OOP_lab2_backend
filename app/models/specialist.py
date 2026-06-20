@@ -1,4 +1,3 @@
-"""Specialist model — a worker that can be assigned to a brigade."""
 from sqlalchemy import Boolean, Column, String
 
 from app.core.database import Base

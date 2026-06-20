@@ -1,4 +1,3 @@
-"""Brigade (Бригада) registered in the work plan for a request."""
 from sqlalchemy import Column, DateTime, ForeignKey, Integer, String, Table
 from sqlalchemy.orm import relationship
 

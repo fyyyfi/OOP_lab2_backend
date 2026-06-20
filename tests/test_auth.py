@@ -1,5 +1,3 @@
-"""Integration tests for authentication and authorisation."""
-
 
 def test_register_and_login(client):
     resp = client.post(

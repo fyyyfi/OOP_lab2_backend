@@ -1,4 +1,3 @@
-"""Centralised logging configuration."""
 import logging
 import sys
 
@@ -8,7 +7,6 @@ _CONFIGURED = False
 
 
 def setup_logging() -> None:
-    """Configure the root logger once for the whole application."""
     global _CONFIGURED
     if _CONFIGURED:
         return
@@ -31,6 +29,5 @@ def setup_logging() -> None:
 
 
 def get_logger(name: str) -> logging.Logger:
-    """Return a named logger, ensuring logging is configured."""
     setup_logging()
     return logging.getLogger(name)

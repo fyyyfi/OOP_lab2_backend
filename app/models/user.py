@@ -1,4 +1,3 @@
-"""User account model used for authentication and authorisation."""
 from sqlalchemy import Column, String
 
 from app.core.database import Base

@@ -1,4 +1,3 @@
-"""Authentication-related schemas."""
 from pydantic import BaseModel
 
 
